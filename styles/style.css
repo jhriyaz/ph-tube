@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lato:wght@400;700;900&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+
+.btn-bg-custom {
+    border-radius: 4px;
+    color: #FFF;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+
+.btn-bg-custom:hover {
+    background: #080808cb;
+    color: #FFF;
+}
+
+.category-button {
+    color: rgba(37, 37, 37, 0.70);
+    font-size: 16px;
+    background: #25252526;
+}
+.activeButton{
+    background:#FF1F3D
+}

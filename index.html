@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PH Tube-Watch videos for entertainment</title>
+    <link rel="shortcut icon" href="./images/ph-favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+     <!-- navbar section starts here -->
+    <header>
+        <nav class="container mx-auto grid grid-cols-1 lg:grid-cols-3 justify-between items-center px-4 lg:px-0">
+            <img class="w-full lg:w-5/12 py-4 px-5 lg:px-0" src="./images/Logo.png" alt="">
+           
+               <button onclick="sortByView()" class=" text-center lg:mx-auto text-black text-lg font-medium  p-3 category-button btn-bg-custom"> 
+                Sort by view
+               </button>
+            <a href="blog.html" class="lg:text-right pt-4"><button
+                    class="btn-bg-custom p-4 bg-[#FF1F3D] w-full text-center  lg:w-20">Blog</button></a>
+                    
+        </nav>
+        <hr class="container mx-auto mt-5">
+    </header>
+ <!-- navbar section Ends here -->
+    <main class="lg:pt-24 pt-7 " >
+        <!-- video_category code starts here -->
+        <section class="container mx-auto gap-3 grid lg:grid-cols-4 grid-cols-2 justify-center items-center px-4 lg:px-0" id="video_category">
+
+        </section>
+         <!-- video_category code end here -->
+          <!-- video_section code starts here -->
+        <section class="container mx-auto pt-14 grid grid-cols-1 lg:grid-cols-4 justify-between items-center gap-9 px-4 lg:px-0" id="video-section">
+
+        </section>
+         <!-- video_section code end here -->
+    </main>
+    <!-- footer section start from here -->
+    <footer class=" bg-slate-200 p-8 mt-24">
+        <section class="container mx-auto">
+            <img src="./images/Logo.png" alt="" class="mx-auto">
+            <p class="text-center text-slate-900 pt-3 font-semibold">&copy; by Md Jahid Hasan</p>
+        </section>
+    </footer>
+    <!-- footer section Ends from here -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
